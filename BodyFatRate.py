@@ -26,4 +26,9 @@ result = minNum < fatRate < maxNum
 
 # 输出
 print("你的体脂率是%f" % fatRate)
-print("你的体脂率，是否符合标准", result)
+# if else 判断语句
+if result == True:
+    print("你的体脂率符合标准",)
+else:
+    print("你的体脂率不符合标准", )
+
